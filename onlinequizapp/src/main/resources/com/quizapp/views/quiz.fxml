@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.quizapp.frontend.controller.QuizController">
+    <center>
+        <VBox spacing="10">
+            <Text fx:id="questionText" />
+            <RadioButton fx:id="option1"/>
+            <RadioButton fx:id="option2"/>
+            <RadioButton fx:id="option3"/>
+            <RadioButton fx:id="option4"/>
+            <Button fx:id="submitButton" text="Submit" onAction="#handleSubmit"/>
+        </VBox>
+    </center>
+</BorderPane>
